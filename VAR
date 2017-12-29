@@ -1,0 +1,2 @@
+// Observe changes of an entire model object and its children
+model.observeTreeChange(self) { ... } // Tree has changed
