@@ -1,0 +1,4 @@
+// Observe property changes on models
+model.observeChange(self) { ... } // Observe all changes
+model.observeChange(self, key: "width") { ... } // Observe a single property
+model.observeChange(self, keys: ["width", "height"]) { ... } // Observe a set of properties
