@@ -1,0 +1,4 @@
+var canvas = Canvas()
+
+var scope = Scope(name: "Canvas")
+scope.root = canvas
